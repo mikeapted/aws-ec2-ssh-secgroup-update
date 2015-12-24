@@ -36,7 +36,9 @@ Run directly from CLI:
 
 or add it to your cron:
 
-    * * * * * /path/to/aws-ec2-ssh-secgroup-update/update.js -s <security_group_id> [-r <region>] [-f|--force]
+    * * * * * bash -l -c '/path/to/aws-ec2-ssh-secgroup-update/update.js -s <security_group_id> [-r <region>] [-f|--force]'
+
+Note: We need to tell bash to login to get our environment variables, etc.
 
 ## Contribute
 
