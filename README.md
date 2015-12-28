@@ -4,7 +4,7 @@
 
 Update an AWS security group with a new dynamic IP from the command line or cron job.
 
-If your public IP address changes routinely due to your ISP, frequent physical relocation, or any other reason it can be tempting to leave SSH open to 0.0.0.0/0 in your AWS EC security group. This is generally a bad idea, and this allows you to add a simple cron job that will handle that update for you.
+If your public IP address changes routinely due to your ISP, frequent physical relocation, or any other reason it can be tempting to leave SSH open to 0.0.0.0/0 in your AWS EC2 security groups. This is generally a bad idea. This script allows you to add a simple cron job that will handle that update for you transparently in the background.
 
 ## Dependencies
 
