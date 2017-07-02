@@ -1,7 +1,7 @@
 {
   "name": "aws-ec2-ssh-secgroup-update",
   "version": "0.0.1",
-  "description": "Node.js script to run with cron locally to ensure your current IP is up to date in your EC2 SSH security group",
+  "description": "Node.js script to run with cron locally to ensure your current IP is up to date in your EC2 SSH security group.",
   "author": "Mike Apted <mike.apted@gmail.com>",
   "repository": {
     "type": "git",
