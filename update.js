@@ -120,7 +120,7 @@ async.series([
 
     ec2.authorizeSecurityGroupIngress(params, function(err, data) {
       if (err) {
-        console.log('Error adding new IP address from security group');
+        console.log('Error adding new IP address to security group');
         return callback(err);
       }
       return callback();
